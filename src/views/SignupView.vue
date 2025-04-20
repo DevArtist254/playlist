@@ -15,6 +15,7 @@
 import { auth } from '@/firebase/firebase.config';
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { ref } from 'vue';
+import { useRouter } from 'vue-router';
 
 export default {
     setup() {
